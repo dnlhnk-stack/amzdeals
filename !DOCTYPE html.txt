@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Top-Deals</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f9f9f9; }
+        header { background: #232f3e; color: #fff; padding: 20px; text-align:center; }
+        main { padding: 20px; max-width: 900px; margin: auto; }
+        .offers { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .offer { background: #fff; border-radius: 8px; padding: 15px; width: 200px; box-shadow:0 0 5px rgba(0,0,0,0.2); text-align:center; }
+        .offer img { width: 100%; border-radius: 5px; }
+        .offer a { display: inline-block; margin-top: 10px; padding: 8px 12px; background:#ff9900; color:#000; text-decoration:none; border-radius:4px; }
+        footer { text-align:center; padding:20px; font-size:12px; color:#555; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top Amazon Deals</h1>
+        <p>Die besten Angebote des Tages – täglich aktualisiert!</p>
+    </header>
+
+    <main>
+        <h2>Kategorien</h2>
+        <ul>
+            <li>Elektronik</li>
+            <li>Haushalt</li>
+            <li>Gaming</li>
+            <li>Bücher</li>
+            <li>Sport</li>
+        </ul>
+
+        <h2>Beispiel-Angebote</h2>
+        <div class="offers">
+            <div class="offer">
+                <img src="https://via.placeholder.com/150" alt="Smartphone XYZ">
+                <p>Smartphone XYZ</p>
+                <a href="https://www.amazon.de/dp/B000000" target="_blank">Jetzt kaufen</a>
+            </div>
+            <div class="offer">
+                <img src="https://via.placeholder.com/150" alt="Kaffeemaschine ABC">
+                <p>Kaffeemaschine ABC</p>
+                <a href="https://www.amazon.de/dp/B000001" target="_blank">Jetzt kaufen</a>
+            </div>
+            <div class="offer">
+                <img src="https://via.placeholder.com/150" alt="Gaming-Konsole">
+                <p>Gaming-Konsole</p>
+                <a href="https://www.amazon.de/dp/B000002" target="_blank">Jetzt kaufen</a>
+            </div>
+            <!-- Weitere 7 Dummy-Angebote hier einfügen -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Impressum | Datenschutz | &copy; 2025 Amazon Top-Deals</p>
+    </footer>
+</body>
+</html>
